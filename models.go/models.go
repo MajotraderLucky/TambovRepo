@@ -58,7 +58,7 @@ func (NewsCategoryTableType) Name() string {
 }
 
 func (NewsCategoryTableType) Columns() []string {
-	return []string{"news_id", "category_id"}
+	return []string{"NewsId", "CategoryId"}
 }
 
 func (NewsCategoryTableType) NewStruct() reform.Struct {
