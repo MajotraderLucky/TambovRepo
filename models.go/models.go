@@ -54,7 +54,7 @@ func (NewsCategoryTableType) Schema() string {
 }
 
 func (NewsCategoryTableType) Name() string {
-	return "news_categories"
+	return "NewsCategories"
 }
 
 func (NewsCategoryTableType) Columns() []string {
